@@ -79,7 +79,7 @@
 #bp1 .bp1-secimg{
   width:200px;
   height:100px;
-  border:3px solid #3F7FC9;
+  border:3px solid #76966c;
   overflow:hidden;
   position:relative;
   background:#F4F4F4; /* wie Original */
@@ -98,7 +98,7 @@
   font-size:40px;
   text-transform:lowercase;
   text-align:center;
-  color:#2B6CB0;
+  color:#76966c;
   line-height:35px;
 }
 
@@ -131,15 +131,15 @@
 
 /* Tags blau */
 #bp1 .bp1-tag{
-  color:#3F7FC9;
+  color:#76966c;
   font-family:'Saira Semi Condensed', sans-serif;
   font-size:12px;
   text-transform:uppercase;
   letter-spacing:2px;
   font-weight:bold;
 }
-#bp1 .bp1-tag i{ color:#3F7FC9; font-size:13px; }
-#bp1 .bp1-box i{ color:#3F7FC9; text-transform:uppercase; }
+#bp1 .bp1-tag i{ color:#76966c; font-size:13px; }
+#bp1 .bp1-box i{ color:#76966c; text-transform:uppercase; }
 #bp1 .bp1-box b{ color:#2B6CB0; font-family:'Nunito', sans-serif; }
 #bp1 .bp1-box s{ color:#2B6CB0; }
 #bp1 .bp1-subhead{ font-size:15px; text-transform:uppercase; }
