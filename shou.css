@@ -2,7 +2,7 @@
 
 /* Außenhintergrund wie Original */
 #bp1 .bp1-bg{
-  width:650px;
+  width:550px;
   background:#F9F9F9;
   box-sizing:border-box;
   padding:10px;
@@ -10,7 +10,7 @@
 
 /* TOP-BILD ( */
 #bp1 .bp1-top{
-  width:642px;
+  width:542px;
   height:200px;
   border:4px solid #F9F9F9;
   margin:auto;
