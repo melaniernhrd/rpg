@@ -1,89 +1,90 @@
-#bp1 { width:650px; margin:auto; }
+#bp1 { width:550px; margin:auto; }
 
 /* Außenhintergrund wie Original */
 #bp1 .bp1-bg{
-  width:650px;
+  width:550px;
   background:#F9F9F9;
   box-sizing:border-box;
-  padding:10px; /* original behalten */
+  padding:10px;
 }
 
-/* TOP-BILD (Bildgröße bleibt original) */
+/* TOP-BILD ( */
 #bp1 .bp1-top{
-  width:542px;   /* original */
-  height:200px;  /* original */
-  border:4px solid #F9F9F9; /* original */
+  width:542px;
+  height:200px;
+  border:4px solid #F9F9F9;
   margin:auto;
   background:var(--bp1-header) center/cover no-repeat !important;
   position:relative;
 }
 
-/* transparent Overlay (Bildgröße bleibt original) */
+/* transparent Overlay */
 #bp1 .bp1-overlay{
   background:rgba(250,250,250,0.52);
-  height:200px; /* original */
-  width:542px;  /* original */
+  height:200px;
+  width:542px;
   box-sizing:border-box;
-  padding-top:65px; /* original */
+  padding-top:65px;
 }
 
-/* mittlere Box im Banner (als Teil des Bildbereichs original) */
+/* mittlere Box im Banner */
 #bp1 .bp1-overlaybox{
   background:#F4F4F4;
-  width:380px;  /* original */
-  height:65px;  /* original */
-  padding:5px;  /* original */
+  width:380px;
+  height:65px;
+  padding:5px;
   margin:auto;
   box-sizing:border-box;
 }
 
-/* NAME (Schriftgrößen bleiben original) */
+/* NAME  */
 #bp1 .bp1-name{
   font-family:'Asimovian', sans-serif;
-  font-size:40px;  /* original */
+  font-size:40px;
   text-align:center;
   text-transform:uppercase;
   color:#76966c;
-  line-height:38px; /* original */
-  letter-spacing:1px; /* original */
+  line-height:38px;
+  letter-spacing:1px;
 }
 
-/* Untertitel (original) */
+/* Untertitel */
 #bp1 .bp1-under{
   font-family:'Nunito', sans-serif;
-  font-size:9px; /* original */
+  font-size:9px;
   text-transform:uppercase;
   text-align:center;
-  letter-spacing:3px; /* original */
+  letter-spacing:3px;
   color:#333;
-  line-height:9px; /* original */
+  line-height:9px;
 }
 
-/* Sektionen als Tabelle (breiter, Inhalte proportional im Layout) */
+/* Sektionen als Tabelle  */
 #bp1 .bp1-sec{
-  width:567px; /* 480 -> auf 650 Layoutbreite angepasst */
+  width:480px;
   margin:auto;
   display:table;
   table-layout:fixed;
   border-collapse:collapse;
-  margin-top:10px; /* original */
+  margin-top:10px;
 }
 #bp1 .bp1-sec td{
   vertical-align:middle;
   background:#F4F4F4;
-  padding:5px; /* original */
+  padding:5px;
   box-sizing:border-box;
 }
 
-/* kleines Bildfeld (Bildgröße bleibt original) */
+/* kleines Bildfeld ) */
 #bp1 .bp1-secimg{
-  width:200px;  /* original */
-  height:100px; /* original */
-  border:3px solid #76966c; /* original */
+  width:200px;
+  height:100px;
+  border:3px solid #76966c;
   overflow:hidden;
   position:relative;
-  background:#F4F4F4;
+  background:#F4F4F4; /* wie Original */
 }
+
 #bp1 .bp1-secimg img{
   width:100%;
   height:100%;
@@ -91,97 +92,97 @@
   display:block;
 }
 
-/* Titelblock (original Schriftgröße) */
+/* Titelblock */
 #bp1 .bp1-sectitle{
   font-family:'Saira Semi Condensed', sans-serif;
-  font-size:40px; /* original */
+  font-size:40px;
   text-transform:lowercase;
   text-align:center;
   color:#76966c;
-  line-height:35px; /* original */
+  line-height:35px;
 }
 
-/* kleiner Text darunter (original) */
+/* kleiner Text darunter */
 #bp1 .bp1-sectext{
   font-family:'Nunito', sans-serif;
-  font-size:8px; /* original */
+  font-size:8px;
   text-transform:uppercase;
   text-align:center;
-  letter-spacing:1px; /* original */
+  letter-spacing:1px;
   color:#333;
-  line-height:8px; /* original */
+  line-height:8px;
 }
 
-/* Infoboxen (breiter, Schrift bleibt original) */
+/* Infoboxen  */
 #bp1 .bp1-box{
-  width:555px; /* 470 -> angepasst */
+  width:470px;
   margin:auto;
   font-family:Calibri, sans-serif;
-  font-size:12px; /* original */
+  font-size:12px;
   color:#333;
   text-align:justify;
   background:#F4F4F4;
   overflow:auto;
   height:auto;
   box-sizing:border-box;
-  padding:5px 10px; /* original */
-  margin-top:5px; /* original */
+  padding:5px 10px;
+  margin-top:5px;
 }
 
-/* Tags (original Schriftgröße) */
+/* Tags blau */
 #bp1 .bp1-tag{
   color:#76966c;
   font-family:'Saira Semi Condensed', sans-serif;
-  font-size:12px; /* original */
+  font-size:12px;
   text-transform:uppercase;
-  letter-spacing:2px; /* original */
+  letter-spacing:2px;
   font-weight:bold;
 }
-#bp1 .bp1-tag i{ color:#76966c; font-size:13px; } /* original */
+#bp1 .bp1-tag i{ color:#76966c; font-size:13px; }
 #bp1 .bp1-box i{ color:#76966c; text-transform:uppercase; }
 #bp1 .bp1-box b{ color:#76966c; font-family:'Nunito', sans-serif; }
 #bp1 .bp1-box s{ color:#76966c; }
-#bp1 .bp1-subhead{ font-size:15px; text-transform:uppercase; } /* original */
+#bp1 .bp1-subhead{ font-size:15px; text-transform:uppercase; }
 
-/* Tabellenbereich (breiter, Schriften original) */
+/* Tabellenbereich */
 #bp1 .bp1-table{
-  width:567px; /* 480 -> angepasst */
+  width:480px;
   margin:auto;
   border-collapse:collapse;
-  margin-top:5px; /* original */
+  margin-top:5px;
 }
 #bp1 .bp1-table .bp1-th{
   font-family:'Tulpen One', cursive;
   color:#2B6CB0;
   text-align:center;
-  font-size:22px; /* original */
+  font-size:22px;
   text-transform:uppercase;
-  padding:8px 0; /* original */
+  padding:8px 0;
   background:#F4F4F4;
 }
 #bp1 .bp1-table .bp1-td{
   text-align:justify;
   color:#333;
   font-family:Calibri, sans-serif;
-  font-size:11px; /* original */
-  padding:4px 0 4px 10px; /* original */
+  font-size:11px;
+  padding:4px 0 4px 10px;
   background:rgba(245,245,245,0.62);
   white-space:pre-line;
 }
 
-/* Facts unten (breiter, Schriften original) */
+/* Facts unten */
 #bp1 .bp1-facts{
-  width:567px; /* 480 -> angepasst */
+  width:480px;
   margin:auto;
   border-collapse:collapse;
-  margin-top:10px; /* original */
+  margin-top:10px;
 }
 #bp1 .bp1-facts td{
   background:#F4F4F4;
   color:#333;
   font-family:Calibri, sans-serif;
-  font-size:11px; /* original */
-  padding:5px 4px; /* original */
+  font-size:11px;
+  padding:5px 4px;
   text-align:center;
   text-transform:uppercase;
 }
