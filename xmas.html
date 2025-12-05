@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Weihnachtsgrüße</title>
+  <title>Kaiju Rising – Weihnachtsgrüße</title>
+
   <style>
     :root{
-      --bg1:#0b1020;
-      --bg2:#102a3a;
       --card:#0f172aee;
       --gold:#f6c453;
       --red:#e84545;
@@ -25,16 +24,15 @@
     /* iFrame-safe reset */
     *{ box-sizing:border-box; margin:0; padding:0; }
     html, body{ height:100%; }
+
+    /* WICHTIG: transparenter Hintergrund */
     body{
       display:grid;
       place-items:center;
-      background:
-        radial-gradient(1100px 700px at 10% -10%, #1a3761 0%, transparent 60%),
-        radial-gradient(900px 600px at 110% 10%, #0d5c4f 0%, transparent 55%),
-        linear-gradient(160deg, var(--bg1), var(--bg2));
+      background: transparent;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
       color: var(--text);
-      padding: 16px;
+      padding: 12px;
     }
 
     .wrap{
@@ -52,9 +50,10 @@
       text-align:center;
       position:relative;
       overflow:hidden;
+      backdrop-filter: blur(4px);
     }
 
-    /* Glitzer-Schnee (nur CSS) */
+    /* dezenter Glitzer-Schnee */
     .snow, .snow::before, .snow::after{
       content:"";
       position:absolute;
@@ -190,7 +189,14 @@
       color: var(--muted);
     }
 
-    /* optional: compact mode if iframe very small */
+    .forum-tag{
+      display:inline-block;
+      margin-top: 4px;
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing:.2px;
+    }
+
     @media (max-width: 360px){
       .tree .layer{ border-left-width:55px; border-right-width:55px; border-bottom-width:72px;}
       .tree .layer:nth-child(2){ border-left-width:48px; border-right-width:48px; border-bottom-width:64px;}
@@ -204,12 +210,14 @@
     <div class="card">
       <div class="snow"></div>
 
-      <div class="badge"><span class="dot"></span> Frohe Feiertage</div>
+      <div class="badge"><span class="dot"></span> Grüße aus dem Forum</div>
 
       <h1>🎄 <span>Fröhliche Weihnachten</span> 🎄</h1>
+      <div class="forum-tag">— vom <strong>Kaiju Rising</strong> Forum —</div>
+
       <p>
-        Ich wünsche dir ruhige Tage, warmes Licht im Herzen<br/>
-        und einen großartigen Start ins neue Jahr! ✨
+        Mögen eure Feiertage so episch sein wie ein Kaiju-Finale<br/>
+        und das neue Jahr euch Glück, Gesundheit und gute Stories bringen! ✨
       </p>
 
       <div class="tree" aria-hidden="true">
@@ -228,7 +236,7 @@
       </div>
 
       <div class="footer">
-        — Liebe Grüße &amp; eine schöne Weihnachtszeit! —
+        — Herzliche Kaiju-Rising-Weihnachtsgrüße! —
       </div>
     </div>
   </div>
